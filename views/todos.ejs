@@ -1,0 +1,10 @@
+<%-include('./partials/header')%>
+    <h1>TODOS</h1>
+    <!-- <h2><%=todo%></h2> -->
+    <ul>
+        
+        <%for(let i of todo){%>
+            <li><h2><%=i%></h2></li>
+        <%}%>
+    </ul>
+    <%-include('./partials/footer')%>
